@@ -1,0 +1,336 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sherly Marselina | Website Pribadi</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background: linear-gradient(135deg, #ffe6f0, #fff5fa);
+      color: #444;
+      text-align: center;
+      padding-bottom: 50px;
+    }
+
+    /* Navigasi */
+    nav {
+      position: sticky;
+      top: 0;
+      background: #ffb6c9;
+      padding: 12px 0;
+      z-index: 100;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: 500;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      color: #ffe6f0;
+    }
+
+    /* Header */
+    header {
+      background: linear-gradient(90deg, #ff9eb8, #ffb6c9);
+      color: white;
+      padding: 50px 20px;
+      border-bottom-left-radius: 50% 20%;
+      border-bottom-right-radius: 50% 20%;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h1 {
+      font-size: 2.8em;
+      letter-spacing: 1px;
+    }
+
+    header p {
+      font-size: 1.2em;
+      margin-top: 10px;
+    }
+
+    /* Bagian Isi */
+    section {
+      background: white;
+      margin: 60px auto;
+      width: 85%;
+      max-width: 700px;
+      padding: 30px;
+      border-radius: 20px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+    }
+
+    section:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 10px 20px rgba(0,0,0,0.15);
+    }
+
+    h2 {
+      color: #ff6392;
+      margin-bottom: 15px;
+      border-bottom: 2px solid #ff9eb8;
+      display: inline-block;
+      padding-bottom: 5px;
+    }
+
+    p {
+      line-height: 1.8;
+      font-size: 1.1em;
+    }
+
+    /* Tombol */
+    .button {
+      display: inline-block;
+      margin-top: 15px;
+      padding: 10px 25px;
+      background-color: #ff9eb8;
+      color: white;
+      text-decoration: none;
+      border-radius: 25px;
+      transition: background 0.3s ease;
+    }
+
+    .button:hover {
+      background-color: #ff739d;
+    }
+
+    /* Footer */
+    footer {
+      background: #fff0f5;
+      padding: 20px;
+      color: #777;
+      margin-top: 40px;
+      font-size: 0.9em;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigasi -->
+  <nav>
+    <a href="#tentang">🏠 Tentang Saya</a>
+    <a href="#hobi">🎨 Hobi</a>
+    <a href="#kontak">💌 Kontak</a>
+    <a href="#galeri">📂 Galeri Media</a>
+    <a href="#silsilah">📌 Silsilah Keluarga</a>
+  </nav>
+
+  <!-- Header -->
+  <header>
+    <h1>Sherly Marselina</h1>
+    <p>Pecinta Kucing Pasti-nya🐱</p>
+  </header>
+
+  <!-- Tentang -->
+  <section id="tentang">
+    <h2>Tentang Saya</h2>
+    <p>Halo! Nama saya <strong>Sherly Marselina</strong>, yang akrab disapa Lily. Ditahun 2025 ini saya menginjak umur 17 tahun, Saya adalah siswi SMKN 2 yang menggambil jurusan Elektronika. Saya senang membuat tampilan web dan mengembangkan ide kreatif di dunia digital.</p>
+  </section>
+
+  <!-- Hobi -->
+  <section id="hobi">
+    <h2>Hobi</h2>
+    <p>Saya suka membaca novel, membuat desain tampilan web dan mencoba membuat aplikasi sederhana.</p>
+  </section>
+
+  <!-- Kontak -->
+  <section id="kontak">
+    <h2>Kontak</h2>
+    <p>Kamu bisa menghubungi saya melalui:</p>
+    <a href="mailto:sherlymarselina111@gmail.com" class="button">📧 Email Saya</a>
+    <br><br>
+    <a href="https://instagram.com/shrlymrslna_" target="_blank" class="button">📸 Instagram</a>
+  </section>
+
+  <!-- Galeri Media -->
+  <section id="galeri">
+  <h2>Galeri Media</h2>
+
+  <!-- Foto -->
+  <h3>📸 Foto Saya</h3>
+  <img src="foto_sherly.jpg" alt="Foto Sherly Marselina" style="width:450px; border-radius:15px; box-shadow:0 5px 10px rgba(0,0,0,0.15); margin:15px;">
+
+  <!-- Video -->
+  <h3>🎥 Video Saya</h3>
+  <video controls style="width:80%; border-radius:15px; box-shadow:0 5px 10px rgba(0,0,0,0.1); margin:10px;">
+    <source src="videoo_sherly.mp4" type="video/mp4">
+    Browser kamu tidak mendukung video.
+  </video>
+
+  <!-- Audio -->
+  <h3>🎧 Audio Saya</h3>
+  <audio controls style="margin:10px;">
+    <source src="audio.mp3" type="audio/mp3">
+  </audio>
+</section>
+
+<section id="silsilah">
+  <h2>Silsilah Keluarga Saya</h2>
+
+  <table style="width:90%; border-collapse:collapse; margin:20px auto; text-align:center; 
+                font-family:'Poppins', sans-serif; box-shadow:0 5px 10px rgba(0,0,0,0.1); border:2px solid #f3b6c2;">
+    <thead style="background-color:#f9c8d2; color:#333;">
+      <tr>
+        <th style="padding:12px; border:1px solid #f3b6c2;">Nama</th>
+        <th style="padding:12px; border:1px solid #f3b6c2;">Hubungan</th>
+        <th style="padding:12px; border:1px solid #f3b6c2;">Detail</th>
+      </tr>
+    </thead>
+
+    <tbody style="background-color:#fffafc;">
+
+      <!-- Papa -->
+      <tr>
+        <td style="padding:10px; border:1px solid #f3b6c2;">Papa</td>
+        <td style="padding:10px; border:1px solid #f3b6c2;">Ayah</td>
+        <td style="padding:10px; border:1px solid #f3b6c2;">
+          <table style="width:100%; border-collapse:collapse;">
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Umur</td>
+              <td style="border:1px solid #f3b6c2;">39 tahun</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Pekerjaan</td>
+              <td style="border:1px solid #f3b6c2;">Karyawan Swasta</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Hobi</td>
+              <td style="border:1px solid #f3b6c2;">Nonton Bola</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Mama -->
+      <tr>
+        <td style="padding:10px; border:1px solid #f3b6c2;">Mama</td>
+        <td style="padding:10px; border:1px solid #f3b6c2;">Ibu</td>
+        <td style="padding:10px; border:1px solid #f3b6c2;">
+          <table style="width:100%; border-collapse:collapse;">
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Umur</td>
+              <td style="border:1px solid #f3b6c2;">48 tahun</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Pekerjaan</td>
+              <td style="border:1px solid #f3b6c2;">IRT</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Hobi</td>
+              <td style="border:1px solid #f3b6c2;">Memasak</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Fitri -->
+      <tr>
+        <td style="padding:10px; border:1px solid #f3b6c2;">Fitriana</td>
+        <td style="padding:10px; border:1px solid #f3b6c2;">Anak Pertama</td>
+        <td style="padding:10px; border:1px solid #f3b6c2;">
+          <table style="width:100%; border-collapse:collapse;">
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Umur</td>
+              <td style="border:1px solid #f3b6c2;">20 tahun</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Pendidikan</td>
+              <td style="border:1px solid #f3b6c2;">kuliah</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Hobi</td>
+              <td style="border:1px solid #f3b6c2;">Memasak</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Sherly -->
+      <tr>
+        <td style="padding:10px; border:1px solid #f3b6c2;">Sherly</td>
+        <td style="padding:10px; border:1px solid #f3b6c2;">Anak Kedua</td>
+        <td style="padding:10px; border:1px solid #f3b6c2;">
+          <table style="width:100%; border-collapse:collapse;">
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Umur</td>
+              <td style="border:1px solid #f3b6c2;">17 tahun</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Sekolah</td>
+              <td style="border:1px solid #f3b6c2;">SMK</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Hobi</td>
+              <td style="border:1px solid #f3b6c2;">Membaca</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Viona -->
+      <tr>
+        <td style="padding:10px; border:1px solid #f3b6c2;">Viona</td>
+        <td style="padding:10px; border:1px solid #f3b6c2;">Anak Ketiga</td>
+        <td style="padding:10px; border:1px solid #f3b6c2;">
+          <table style="width:100%; border-collapse:collapse;">
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Umur</td>
+              <td style="border:1px solid #f3b6c2;">13 tahun</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Sekolah</td>
+              <td style="border:1px solid #f3b6c2;">SMP</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Hobi</td>
+              <td style="border:1px solid #f3b6c2;">Menari</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+
+      <!-- Fikri -->
+      <tr>
+        <td style="padding:10px; border:1px solid #f3b6c2;">Fikri</td>
+        <td style="padding:10px; border:1px solid #f3b6c2;">Anak Keempat</td>
+        <td style="padding:10px; border:1px solid #f3b6c2;">
+          <table style="width:100%; border-collapse:collapse;">
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Umur</td>
+              <td style="border:1px solid #f3b6c2;">11 tahun</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Sekolah</td>
+              <td style="border:1px solid #f3b6c2;">SD</td>
+            </tr>
+            <tr>
+              <td style="border:1px solid #f3b6c2;">Hobi</td>
+              <td style="border:1px solid #f3b6c2;">Bermain Sepeda</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+</section>
+
+<!-- Footer -->
+<footer>
+  © 2025 Sherly Marselina 💕 | “Kalau error, mungkin keyboard-nya lagi galau 😅”
+</footer>
+</body>
+</html>
